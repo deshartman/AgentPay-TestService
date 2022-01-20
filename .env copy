@@ -1,0 +1,11 @@
+ACCOUNT_SID=ACxxxx
+API_KEY=SKxxx
+API_SECRET=
+
+# Server where callbacks are sent when calls arrive at Twilio voice. This will contain details of call (call SID)
+SERVER_URL=https://
+
+# Variables for SIP Voice. Call will be to/from -> sip:+nnnnnnn@yyyyy.sip.twilio.com
+# NB: Registered SIP endpoint MUST have "+" in username
+# NB: SIP Trunk MUST have "+" in from number
+SIP_DOMAIN=yyyy.sip.twilio.com
